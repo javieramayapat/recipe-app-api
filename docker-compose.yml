@@ -17,7 +17,7 @@ services:
       - DB_HOST=db
       - DB_NAME=recipe-db
       - DB_USER=postgres
-      - DB_PASS=postgres
+      - DB_PASSWORD=postgres
     depends_on:
       - db
 
